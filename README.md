@@ -117,3 +117,10 @@ db.password=your_password
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## Future Enhancements
+
+- Online booking portal
+- Mobile application
+- Integration with payment gateways
+- Advanced reporting and analytics
+- Multi-language support
