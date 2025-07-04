@@ -78,3 +78,42 @@ Before running the application, ensure you have the following installed:
    mvn javafx:run
    ```
    or run the `MainApp` class from your IDE
+## Project Structure
+
+```
+src/main/java/com/hotel/
+├── controllers/      # JavaFX controllers
+├── dao/             # Data Access Objects
+│   └── impl/        # DAO implementations
+├── model/           # Data models
+├── fxml/            # FXML views
+└── MainApp.java     # Main application class
+```
+
+## Configuration
+
+Update the following configuration in `src/main/resources/application.properties`:
+
+```properties
+db.url=jdbc:mysql://localhost:3306/hotel_management
+db.username=your_username
+db.password=your_password
+```
+
+## Usage
+
+1. Launch the application
+2. Log in using your credentials
+   - Admin: admin/admin123
+   - Staff: staff/staff123
+3. Use the navigation menu to access different modules
+4. Follow on-screen instructions for each operation
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
